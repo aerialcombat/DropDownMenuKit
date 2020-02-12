@@ -100,7 +100,7 @@ open class DropDownTitleView : UIControl {
 
 	// MARK: - Layout
 
-	private  let spacing: CGFloat = 4
+	private  let spacing: CGFloat = 8
 	// For iOS 11 and above
 	override open var intrinsicContentSize: CGSize {
 		return UIView.layoutFittingExpandedSize
