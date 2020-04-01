@@ -28,6 +28,7 @@ open class DropDownMenuCell : UITableViewCell {
 
 	override public init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
 		 super.init(style: style, reuseIdentifier: reuseIdentifier)
+		setUp()
 	}
 	
 	public init() {
@@ -37,6 +38,7 @@ open class DropDownMenuCell : UITableViewCell {
 
 	required public init?(coder aDecoder: NSCoder) {
 		super.init(coder: aDecoder)
+		setUp()
 	}
 
 	open override func awakeFromNib() {
