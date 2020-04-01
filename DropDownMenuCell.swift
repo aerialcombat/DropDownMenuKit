@@ -27,7 +27,7 @@ open class DropDownMenuCell : UITableViewCell {
 	// MARK: - Initialization
 
 	override public init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
-		 fatalError("init(style:reuseIdentifier:) is not supported")
+		 super.init(style: style, reuseIdentifier: reuseIdentifier)
 	}
 	
 	public init() {
