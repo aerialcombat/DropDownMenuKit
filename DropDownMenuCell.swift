@@ -31,7 +31,7 @@ open class DropDownMenuCell : UITableViewCell {
 	}
 	
 	public init() {
-		super.init(style: .default, reuseIdentifier: NSStringFromClass(DropDownMenuCell.self))
+		super.init(style: .subtitle, reuseIdentifier: NSStringFromClass(DropDownMenuCell.self))
 		setUp()
 	}
 
