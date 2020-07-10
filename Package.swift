@@ -10,7 +10,7 @@ let package = Package(
     targets: [
         .target(
             name: "DropDownMenuKit",
-            path: "Source"
+            path: ""
         )
     ]
 )
